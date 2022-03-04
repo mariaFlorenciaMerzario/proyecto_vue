@@ -32,5 +32,9 @@
      methods:{
        
     },
+    
+    mounted(){
+        this.$emit('mensajeHijo',this.mensaje);
+    },
   }
 </script>
